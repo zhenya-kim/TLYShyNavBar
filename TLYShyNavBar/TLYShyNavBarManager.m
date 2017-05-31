@@ -74,7 +74,7 @@ static void * const kTLYShyNavBarManagerKVOContext = (void*)&kTLYShyNavBarManage
 
         self.extensionViewContainer = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100.f, 0.f)];
         self.extensionViewContainer.backgroundColor = [UIColor clearColor];
-        self.extensionViewContainer.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleBottomMargin;
+        self.extensionViewContainer.autoresizingMask = UIViewAutoresizingFlexibleBottomMargin;
 
         self.extensionController = [[TLYShyViewController alloc] init];
         self.extensionController.view = self.extensionViewContainer;
@@ -138,7 +138,7 @@ static void * const kTLYShyNavBarManagerKVOContext = (void*)&kTLYShyNavBarManage
     self.navBarController.view = navbar;
 
     self.statusBarController.viewController = viewController;
-    
+
     [self layoutViews];
 }
 
@@ -204,9 +204,9 @@ static void * const kTLYShyNavBarManagerKVOContext = (void*)&kTLYShyNavBarManage
     {
         return;
     }
-    
+
     _hasCustomRefreshControl = hasCustomRefreshControl;
-    
+
     self.scrollViewController.hasCustomRefreshControl = hasCustomRefreshControl;
 }
 
@@ -552,4 +552,3 @@ static char shyNavBarManagerKey;
 }
 
 @end
-
