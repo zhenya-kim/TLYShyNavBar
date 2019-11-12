@@ -81,7 +81,6 @@
 				A21B00071BFDD41900F9FB54 /* TLYShyNavBarManager.m */,
 				A21BFFDE1BFDD1A500F9FB54 /* Categories */,
 				A21BFFCD1BFDD18D00F9FB54 /* ShyControllers */,
-				A21BFFA61BFDCC8800F9FB54 /* TLYShyNavBar.h */,
 				A21BFFAD1BFDCD5100F9FB54 /* Supporting Files */,
 			);
 			path = TLYShyNavBar;
@@ -98,7 +97,6 @@
 		A21BFFAD1BFDCD5100F9FB54 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A21BFFA81BFDCC8800F9FB54 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -106,6 +104,8 @@
 		A21BFFCD1BFDD18D00F9FB54 /* ShyControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A21BFFA61BFDCC8800F9FB54 /* TLYShyNavBar.h */,
+				A21BFFA81BFDCC8800F9FB54 /* Info.plist */,
 				A21BFFF51BFDD41100F9FB54 /* TLYShyChild.h */,
 				A21BFFF61BFDD41100F9FB54 /* TLYShyParent.h */,
 				A21BFFF71BFDD41100F9FB54 /* TLYShyScrollViewController.h */,
@@ -194,6 +194,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = A21BFF711BFDCB3E00F9FB54;
